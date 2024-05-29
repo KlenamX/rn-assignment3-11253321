@@ -1,5 +1,10 @@
 #
 
+# SCREENSHOT OF APPLICATION
+
+![](./assets/screenshot.png)
+
+
 # COMPONENTS USAGE
 
 <h3>View</h3>
@@ -38,8 +43,6 @@
 
 - Used to display images, supporting various image formats and network images.
 
-#
 
-# SCREENSHOT OF APPLICATION
 
-![](./assets/screenshot.png)
+
