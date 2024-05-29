@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, TextInput } from "react-native";
+import { View, StyleSheet, TextInput, TouchableOpacity } from "react-native";
 import * as Icon from "react-native-feather";
 
 export default function Search() {
@@ -16,9 +16,9 @@ export default function Search() {
         />
       </View>
 
-      <View style={styles.sliders}>
+      <TouchableOpacity style={styles.sliders}>
         <Icon.Sliders height={25} width={25} stroke="white" strokeWidth={3} />
-      </View>
+      </TouchableOpacity>
     </View>
   );
 }
