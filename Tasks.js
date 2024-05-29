@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Header from "./components/Header";
 import Search from "./components/Search";
 import Categories from "./components/Categories";
+import OnGoingTasks from "./components/OnGoingTasks";
 
 export default function Tasks() {
   return (
@@ -9,6 +10,7 @@ export default function Tasks() {
       <Header />
       <Search />
       <Categories />
+      <OnGoingTasks />
     </View>
   );
 }
