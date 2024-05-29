@@ -7,7 +7,7 @@ export default function App() {
       <View style={styles.header}>
         <View style={styles.textContainer}>
           <Text style={styles.headerText}>Hello , Devs</Text>
-          <Text style={styles.headerText2}>14 tasks Today</Text>
+          <Text style={styles.headerText2}>14 tasks today</Text>
         </View>
         <View style={styles.profileContainer}>
           <Image
@@ -21,19 +21,13 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    // backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "flex-start",
-  },
   header: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
     width: "100%",
     paddingHorizontal: 30,
-    marginTop: 45,
+    marginTop: 55,
   },
   textContainer: {
     // backgroundColor: "blue",
